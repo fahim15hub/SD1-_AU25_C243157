@@ -13,6 +13,6 @@ public class Main
 			arr[i] = sc.nextInt();
 			if(arr[i]>= max) max=arr[i];
 			}
-			System.out.println("The largest number in this array is "max);
+			System.out.println("The largest number in this array is "+max);
 	}
 }

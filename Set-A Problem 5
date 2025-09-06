@@ -1,0 +1,18 @@
+import java.util.*;
+public class Main {
+	public static void main(String[] args) {
+	     Scanner input = new Scanner(System.in); 
+        float x = input.nextInt();
+        char s = input.next().charAt(0);
+        float y = input.nextInt();
+        float f = x/y;
+        if(s=='+') System.out.println(x+y); 
+        else if(s=='-') System.out.println(x-y); 
+        else if(s=='*') System.out.println(x*y); 
+        else{
+              if(y==0)System.out.println("Impossible"); 
+              else System.out.println(f); 
+        }
+
+	}
+}

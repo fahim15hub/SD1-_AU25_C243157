@@ -2,9 +2,9 @@ import java.util.*;
 public class Main {
 	public static void main(String[] args) {
 	     Scanner input = new Scanner(System.in); 
-        float x = input.nextInt();
+        float x = input.nextFloat();
         char s = input.next().charAt(0);
-        float y = input.nextInt();
+        float y = input.nextFloat();
         float f = x/y;
         if(s=='+') System.out.println(x+y); 
         else if(s=='-') System.out.println(x-y); 
